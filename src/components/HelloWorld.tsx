@@ -1,5 +1,5 @@
 import { defineCustomElement } from "vue";
-import { defineEmits } from "vue";
+// this solves the issue: import { defineEmits } from "vue";
 
 export default defineCustomElement({
   name: "HelloWorld",
